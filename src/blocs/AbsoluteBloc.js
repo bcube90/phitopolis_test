@@ -49,7 +49,7 @@ export default class AbsoluteBloc {
           result = this.getDifferential(cleanTags[i], cleanTags[j], i, j);
           list.push({from: cleanTags[i], to: cleanTags[j], distance: result})
           if(result > max) max = result
-          console.log(max)
+          //console.log(max)
       }
     }
 

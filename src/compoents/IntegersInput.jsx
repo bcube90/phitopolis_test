@@ -14,7 +14,7 @@ export default function IntegersInput() {
   const aBloc = new AbsoluteBloc(state, disptach, ...useState(InputIntergersState))
 
   // Pattern to check the entered string from -1000 to 1000
-  const settings = { pattern: /^((?:\-1000)|(?:\-[0-9]{1,3}))$|^((?:1000)|(?:[0-9]{1,3}))$/} 
+  const settings = { pattern: /^((?:-1000)|(?:-[0-9]{1,3}))$|^((?:1000)|(?:[0-9]{1,3}))$/} 
 
   useEffect(() => {
     // console.log('tagState', aBloc.tagState)

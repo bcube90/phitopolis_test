@@ -9,7 +9,7 @@ export default function ResultAbsolute() {
       <div className='rounded shadow p-3 fill-space d-flex justify-content-center align-items-center flex-column'> 
         
         {
-          state.result != undefined ?
+          state.result !== undefined ?
             <Fragment>
               <div className='result-container mb-2 bg-success bg-gradiant p-3 text-center rounded-circle'
                 style={{width: '124px', height: '124px'}}
