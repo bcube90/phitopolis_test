@@ -5,7 +5,7 @@ export default function ResultAbsolute() {
   const {state} = useContext(AbsoluteContext)
 
   return (
-    <div className='col-sm-12 col-md-6'>
+    <div className='col-sm-12 col-md-6 mb-3'>
       <div className='rounded shadow p-3 fill-space d-flex justify-content-center align-items-center flex-column'> 
         
         {

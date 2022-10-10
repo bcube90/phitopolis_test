@@ -18,7 +18,7 @@ function App() {
 
   return (
     <AbsoluteContext.Provider value={{state: state, disptach: disptach}}>
-      <section id="main" className='container'>
+      <section id="main" className='container-md overflow-scroll'>
         <IntegersInput />
 
         <div className='row'>

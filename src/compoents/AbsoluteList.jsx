@@ -6,7 +6,7 @@ export default function AbsoluteList() {
   const {state} = useContext(AbsoluteContext)
   const containerClass = state.entities.length ? '' : "d-flex align-items-center justify-content-center"
   return (
-    <div className='col-sm-12 col-md-6'>
+    <div className='col-sm-12 col-md-6 mb-3'>
       <div className=' rounded shadow fill-space'>
         <div className='w-100 p-3 bg-dark bg-gradient rounded-top'>
           <div className="row">
