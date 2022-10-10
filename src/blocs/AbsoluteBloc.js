@@ -67,6 +67,8 @@ export default class AbsoluteBloc {
 
 
   getDifferential(val, val2, i, j) {
-   return  Math.abs(val - val2) + Math.abs(i - j);
+  //  return  Math.abs(val - val2) + Math.abs(i - j);
+   if(val2 > val) return val2 - val
+   else return val - val2
   }
 }
