@@ -5,6 +5,32 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+}
+
+#main {
+  height: calc(100vh - 56px);
+}
+
+.tags-input {
+  width: calc(100% - 65px);
+}
+
+.tags-input .tagify {
+  border-color: #282c34;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+
+.fill-space {
+  min-height: calc(100vh - 382px) !important;
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
