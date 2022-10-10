@@ -1,4 +1,4 @@
-import {useCallback, useRef, useState, useContext, useEffect} from 'react';
+import {useRef, useState, useContext, useEffect} from 'react';
 
 import Tags from "@yaireo/tagify/dist/react.tagify" 
 import "@yaireo/tagify/dist/tagify.css"

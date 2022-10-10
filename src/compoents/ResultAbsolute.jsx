@@ -1,4 +1,4 @@
-import {useContext, useEffect, Fragment} from 'react';
+import {useContext, Fragment} from 'react';
 import { AbsoluteContext } from '../contexts/AsboluteContext';
 
 export default function ResultAbsolute() {

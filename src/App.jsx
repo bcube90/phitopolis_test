@@ -4,7 +4,7 @@
 */
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
-import React, {Fragment, useReducer, useEffect} from 'react';
+import React, {useReducer} from 'react';
 import {
   IntegersInput, Footer, ResultAbsolute,
   AbsoluteList
