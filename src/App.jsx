@@ -8,7 +8,7 @@ import React, {useReducer} from 'react';
 import {
   IntegersInput, Footer, ResultAbsolute,
   AbsoluteList
-} from './compoents'
+} from './components'
 import { 
   AbsoluteContext, AbsoluteDefaultState, AbsoluteReducer
 } from './contexts/AsboluteContext';
