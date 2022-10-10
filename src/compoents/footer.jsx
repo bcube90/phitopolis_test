@@ -13,7 +13,10 @@ export default function Footer() {
         <span className='pe-3'>18.2.0</span>
 
         <span style={{fontSize: 12}} className="pe-2">Node: </span>
-        <span>16.17.1</span>
+        <span className='pe-3'>16.17.1</span>
+
+        <span style={{fontSize: 12}} className="pe-2">Git Branch: </span>
+        <span>main</span>
       </div>
     </section>
   )
