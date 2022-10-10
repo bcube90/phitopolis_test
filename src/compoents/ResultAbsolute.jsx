@@ -12,7 +12,7 @@ export default function ResultAbsolute() {
           state.result !== undefined ?
             <Fragment>
               <div className='result-container mb-2 bg-success bg-gradiant p-3 text-center rounded-circle'
-                style={{width: '124px', height: '124px'}}
+                style={{width: '160px', height: '160px'}}
               >
                 <span className='text-white' style={{fontSize: '54px'}}>{state.result}</span>
               </div>
